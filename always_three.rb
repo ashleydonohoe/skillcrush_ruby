@@ -1,11 +1,10 @@
-puts "=> Give me a number:"
+	puts "=> Give me a number:"
 
-number = gets.chomp.to_i
+	first_number = gets.chomp.to_i
+	
+def always_three(first_number)
 
-number2 = (number + 5) * 2
+	puts "Always " + (((first_number + 5) * 2 -4) /2 - first_number).to_s
+end
 
-number3 = (number2 - 4)/2
-
-final_number = number3 - number
-
-puts final_number
+always_three(first_number)
