@@ -1,6 +1,6 @@
-	puts "=> Give me a number:"
+puts "=> Give me a number:"
 
-	first_number = gets.chomp.to_i
+first_number = gets.chomp.to_i
 	
 def always_three(first_number)
 
